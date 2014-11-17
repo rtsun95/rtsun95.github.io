@@ -43,15 +43,25 @@ $(document).ready(function() {
 
     var title = function() {
         var scroll_top = $(window).scrollTop();
-        console.log('scroll_top = ' + scroll_top + ' difference = ' + (menu_top - container_top - 100));
-        if ((scroll_top / (title_top - menu_top) > 0.75)) {
+        if ((scroll_top / (title_top - menu_top) > 2.5)) {
             $('.main').fadeOut(200);
         } else {
             $('.main').fadeIn();
         }
+		
+		$('.main').css({
+			'top' : title_top+($(this).scrollTop()/1.6)+"px"
+  		}); 
+		console.log("top = "+$('.main').offset().top);
+		console.log("scroll_top = "+scroll_top);
+		console.log("difference = "+ (title_top - menu_top));
     };
+	
     title();
+	 
     $(window).scroll(function() {
         title();
     });
+	
+	
 })
