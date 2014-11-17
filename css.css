@@ -53,6 +53,7 @@ li {
 	vertical-align: middle;
 	height: inherit;
 	display: inline-block;
+	cursor:pointer;
 }
 
 .logo, li {
@@ -171,6 +172,7 @@ li{
 @media (min-width:768px) {
 .list{
 	display:inline-block;
+	cursor:pointer;
 }
 .invert:hover {
 	color: #6b6b6b;

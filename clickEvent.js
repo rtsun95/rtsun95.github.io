@@ -3,12 +3,16 @@ $(document).ready(function() {
 	var display = $('.about_content');
 	
 	var check = function(name){
+		var container_top = $('.container').offset().top;
 		if(class_name != $(name).attr('class')){
 				display.css('opacity','0');
 				$(name).css('opacity', '0.9');
 				class_name=$(name).attr('class');
 				display = $(name);
 			}
+		if(container_top > 100){
+			$('body', 'html').animate({scrollTop:container_top - 100},'50');
+		}
 	}
 	
 	$('.me').click(
