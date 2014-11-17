@@ -6,16 +6,16 @@ html, body {
 }
 .header {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	top: 0;
-	height: 120%;
+	height: 120vh;
 	background-image: url(images/background.jpg);
 }
 .menu {
 	height: 3.2em;
 	background-image: linear-gradient(#F0F0F0, #F0F0F0);
 	opacity: 1;
-	width: 100%;
+	width: 100vw;
 	z-index: 5;
 	vertical-align: central;
 	text-align: center;
@@ -92,10 +92,10 @@ li {
 	position: relative;
 	top: 100%;
 	margin: auto;
-	width: 90%;
+	width: 90vw;
 	text-align: justify;
 	padding: 10px;
-	min-height: 120%;
+	min-height: 120vh;
 	background-color : rgba(255,255,255,0.5);
 }
 .main {
@@ -135,7 +135,7 @@ li{
 }
  @media (min-width:992px) {
 .container {
-	width: 60%;
+	width: 60vw;
 }
 .wrapper{
 	width: 80%;
