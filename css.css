@@ -74,7 +74,7 @@ li {
 	background-image:url(images/resume_24.png);
 }
 .git {
-	background-image: url(images/GitHub-Light_24.png);
+	background-image: url(images/GitHub_24.png);
 }
 .linkedin {
 	background-image: url(images/linkedin_bw_24.png);
@@ -125,7 +125,7 @@ li {
 	background-image:url(images/resume.png);
 }
 .git {
-	background-image: url(images/GitHub-Light.png);
+	background-image: url(images/GitHub.png);
 }
 .linkedin {
 	background-image: url(images/linkedin_bw.png);
@@ -172,6 +172,9 @@ li {
 }
 .linkedin{
 	margin-right:5%;
+}
+.git {
+	background-image: url(images/GitHub-Light.png);
 }
 .git:hover {
 	background-image: url(images/GitHub.png);
