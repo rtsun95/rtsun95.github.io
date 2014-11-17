@@ -1,0 +1,179 @@
+html, body {
+	background-color: #FFEFD5;
+	margin: 0px;
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 100%;
+	background-image: url(images/background.jpg);
+}
+.menu {
+	height: 3.2em;
+	background-image: linear-gradient(#F0F0F0, #F0F0F0);
+	opacity: 0.75;
+	width: 100%;
+	z-index: 5;
+	vertical-align: central;
+	text-align: center;
+	display: table-cell;
+	position: fixed;
+	top: 0;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+}
+.wrapper {
+	height: 3em;
+	position: relative;
+	width: 80%;
+	max-width: 1080px;
+	display: table;
+	margin: auto;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	height: inherit;
+	list-style-type: none;
+	width: auto;
+}
+li {
+	width: 19%;
+	text-align: center;
+	vertical-align: middle;
+	height: inherit;
+	display: inline-block;
+}
+
+.logo, li {
+	margin-top:0px;
+	margin-bottom:0px;
+	height: inherit;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.me{
+	background-image:url(images/profile_24.png);
+}
+.web{
+	background-image:url(images/web_24.png);
+}
+.and{
+	background-image:url(images/android_24.png);
+}
+.math{
+	background-image:url(images/calculator_24.png);
+}
+.resu{
+	background-image:url(images/resume_24.png);
+}
+.git {
+	background-image: url(images/GitHub-Light_24.png);
+}
+.linkedin {
+	background-image: url(images/linkedin_bw_24.png);
+}
+.list{
+	display:none;
+}
+.logo{
+	width:10%;
+	float:right;
+	min-width:24px;
+}
+
+.container {
+	position: relative;
+	top: 100%;
+	margin: auto;
+	width: 90%;
+	text-align: justify;
+	padding: 10px;
+	min-height: 120%;
+	background-color : rgba(255,255,255,0.5);
+}
+.main {
+	position: relative;
+	font-size: 6em;
+	color: white;
+	top: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 700;
+}
+@media (min-width:421px){
+.me{
+	background-image:url(images/profile.png);
+}
+.web{
+	background-image:url(images/web.png);
+}
+.and{
+	background-image:url(images/android.png);
+}
+.math{
+	background-image:url(images/calculator.png);
+}
+.resu{
+	background-image:url(images/resume.png);
+}
+.git {
+	background-image: url(images/GitHub-Light.png);
+}
+.linkedin {
+	background-image: url(images/linkedin_bw.png);
+}
+}
+ @media (min-width:992px) {
+.container {
+	width: 60%;
+}
+.wrapper{
+	width: 80%;
+}
+.linkedin{
+	margin-right:10%;
+}
+}
+@media (min-width:768px) {
+.list{
+	display:inline-block;
+}
+.invert:hover {
+	color: #6b6b6b;
+}
+li {
+	float:none;
+	height: inherit;
+}
+.logo{
+	width:35px;
+	margin-right:3em
+}
+.and, .me, .web, .math,.resu{
+	background:none;
+}
+.menu{
+	background-image: linear-gradient(#F0F0F0, #B6B6B6);
+}
+.wrapper {
+	width: 70%;
+	display:table;
+}
+.linkedin{
+	margin-right:5%;
+}
+.git:hover {
+	background-image: url(images/GitHub.png);
+}
+.linkedin:hover {
+	background-image: url(images/linkedin.png);
+}
+}
