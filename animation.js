@@ -14,13 +14,11 @@ $(document).ready(function() {
                 invisible = false;
             }
         }
-        $('.menu')
-            .mouseenter(
+        $('.menu').mouseenter(
                 function() {
                     $('.menu').css('opacity', '1');
                 });
-        $('.menu')
-            .mouseleave(
+        $('.menu').mouseleave(
                 function() {
                     if (invisible == true) {
                         $('.menu').css('opacity', '0');
@@ -28,10 +26,7 @@ $(document).ready(function() {
                         $('.menu').css('opacity', '0.75');
                     }
                 });
-
-
         menu();
-
         $(window).scroll(function() {
             menu();
         });
@@ -48,11 +43,7 @@ $(document).ready(function() {
                 'top': title_top + ($(this).scrollTop() / 1.6) + "px"
             });
         };
-
-
-
         title();
-		
 		$(window).scroll(function() {
             title();
         })

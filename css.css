@@ -112,6 +112,26 @@ li {
 	margin-right: auto;
 	font-weight: 700;
 }
+.content{
+	width:100%;
+	height:auto;
+}
+.about_content, .web_content, .and_content, .math_content,.resu_content{
+	height:200px;
+	width:inherit;
+	
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+.web_content, .and_content, .math_content,.resu_content{
+	opacity:0;
+}
+.about_content{
+	background:gold;
+}
 @media (min-width:421px){
 .me{
 	background-image:url(images/profile.png);
