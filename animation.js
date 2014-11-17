@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var menu_top = $('.menu').height();
-	if($(document).width()>768){
+	if($(window).width()>768){
 		var container_top = $('.container').offset().top;
 		var title_top = $('.main').offset().top;
 		var invisible = false;
