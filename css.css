@@ -97,7 +97,10 @@ li {
 	text-align: justify;
 	padding: 10px;
 	min-height: 120%;
-	background-color : rgba(255,255,255,0.5);
+	background-color : rgba(255,255,255,0.9);
+}
+.list{
+	display:none;
 }
 .main {
 	position: relative;
@@ -182,11 +185,5 @@ li {
 }
 .linkedin:hover {
 	background-image: url(images/linkedin.png);
-}
-.main {
-	position: relative;
-}
-.container {
-	position: relative;
 }
 }
