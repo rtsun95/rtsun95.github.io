@@ -8,13 +8,13 @@ html, body {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	height: 120vh;
+	height: 120%;
 	background-image: url(images/background.jpg);
 }
 .menu {
 	height: 3.2em;
 	background-image: linear-gradient(#F0F0F0, #F0F0F0);
-	opacity: 0.75;
+	opacity: 1;
 	width: 100%;
 	z-index: 5;
 	vertical-align: central;
@@ -164,6 +164,7 @@ li {
 }
 .menu{
 	background-image: linear-gradient(#F0F0F0, #B6B6B6);
+	opacity: 1;
 }
 .wrapper {
 	width: 70%;
