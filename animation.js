@@ -30,8 +30,16 @@ $(document).ready(function() {
                 });
 
 
+        menu();
 
-        var title = function() {
+        $(window).scroll(function() {
+            menu();
+        });
+
+    }
+	
+	
+	var title = function() {
             var scroll_top = $(window).scrollTop();
 			$('.main').css({
                 'opacity':1-($(this).scrollTop()/750)
@@ -44,26 +52,8 @@ $(document).ready(function() {
 
 
         title();
-        menu();
-
-        $(window).scroll(function() {
-            menu();
+		
+		$(window).scroll(function() {
             title();
-        });
-
-    } else {
-        var title = function() {
-            var scroll_top = $(window).scrollTop();
-            $('.main').css({
-                'opacity':1-($(this).scrollTop()/300)
-            });
-        };
-
-        title();
-
-        $(window).scroll(function() {
-            title();
-        });
-    }
-
+        })
 })
