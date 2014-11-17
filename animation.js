@@ -55,7 +55,7 @@ $(document).ready(function() {
         var title = function() {
             var scroll_top = $(window).scrollTop();
             $('.main').css({
-                'opacity':1-($(this).scrollTop()/750)
+                'opacity':1-($(this).scrollTop()/200)
             });
         };
 
