@@ -29,17 +29,19 @@ $(document).ready(function() {
                     }
                 });
 
+
+
         var title = function() {
             var scroll_top = $(window).scrollTop();
-            if ((scroll_top / (title_top - menu_top) > 2.5)) {
-                $('.main').fadeOut(200);
-            } else {
-                $('.main').fadeIn();
-            }
+			$('.main').css({
+                'opacity':1-($(this).scrollTop()/750)
+            });
             $('.main').css({
                 'top': title_top + ($(this).scrollTop() / 1.6) + "px"
             });
         };
+
+
 
         title();
         menu();
@@ -52,11 +54,9 @@ $(document).ready(function() {
     } else {
         var title = function() {
             var scroll_top = $(window).scrollTop();
-            if ((scroll_top / (title_top - menu_top) > 0.8)) {
-                $('.main').fadeOut(200);
-            } else {
-                $('.main').fadeIn();
-            };
+            $('.main').css({
+                'opacity':1-($(this).scrollTop()/750)
+            });
         };
 
         title();
