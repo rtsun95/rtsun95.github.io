@@ -44,7 +44,7 @@ ul {
 	width: auto;
 }
 li {
-	width: 19%;
+	width: 15%;
 	text-align: center;
 	vertical-align: middle;
 	height: inherit;
@@ -130,6 +130,8 @@ li {
 .linkedin {
 	background-image: url(images/linkedin_bw.png);
 }
+li{
+	width:19%;
 }
  @media (min-width:992px) {
 .container {
