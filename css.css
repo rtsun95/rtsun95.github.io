@@ -6,11 +6,11 @@ html, body {
 }
 .header {
 	position: fixed;
-	width: 100vw;
+	width: 100%;
 	top: 0;
 	left:0;
 	right:0;
-	height: 120vh;
+	height: 120%;
 	background-image: url(images/background.jpg);
 	background-repeat:no-repeat;
 	background-position:center top;
@@ -19,7 +19,7 @@ html, body {
 	height: 3.2em;
 	background-image: linear-gradient(#F0F0F0, #F0F0F0);
 	opacity: 1;
-	width: 100vw;
+	width: 100%;
 	z-index: 5;
 	vertical-align: central;
 	text-align: center;
@@ -35,7 +35,7 @@ html, body {
 .wrapper {
 	height: 3em;
 	position: relative;
-	width: 80vw;
+	width: 80%;
 	max-width: 1080px;
 	display: table;
 	margin: auto;
@@ -87,26 +87,26 @@ li {
 	display:none;
 }
 .logo{
-	width:10vw;
+	width:10%;
 	float:right;
 	min-width:24px;
 }
 
 .container {
 	position: absolute;
-	top: 100vh;
+	top: 100%;
 	margin: auto;
-	width: 90vw;
+	width: 90%;
 	text-align: justify;
 	padding: 10px;
-	min-height: 120vh;
+	min-height: 120%;
 	background-color : rgba(255,255,255,0.5);
 }
 .main {
 	position: absolute;
 	font-size: 6em;
 	color: white;
-	top: 40vh;
+	top: 40%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -139,7 +139,7 @@ li{
 }
  @media (min-width:992px) {
 .container {
-	width: 60vw;
+	width: 60%;
 }
 .wrapper{
 	width: 80%;
