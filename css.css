@@ -83,9 +83,6 @@ li {
 .linkedin {
 	background-image: url(images/linkedin_bw_24.png);
 }
-.list{
-	display:none;
-}
 .logo{
 	width:10%;
 	float:right;
@@ -103,7 +100,7 @@ li {
 	background-color : rgba(255,255,255,0.5);
 }
 .main {
-	position: absolute;
+	position: relative;
 	font-size: 6em;
 	color: white;
 	top: 40%;
