@@ -6,11 +6,11 @@ html, body {
 }
 .header {
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	top: 0;
 	left:0;
 	right:0;
-	height: 120%;
+	height: 120vh;
 	background-image: url(images/background.jpg);
 	background-repeat:no-repeat;
 	background-position:center top;
@@ -35,7 +35,7 @@ html, body {
 .wrapper {
 	height: 3em;
 	position: relative;
-	width: 80%;
+	width: 80vw;
 	max-width: 1080px;
 	display: table;
 	margin: auto;
@@ -87,14 +87,14 @@ li {
 	display:none;
 }
 .logo{
-	width:10%;
+	width:10vw;
 	float:right;
 	min-width:24px;
 }
 
 .container {
-	position: relative;
-	top: 100%;
+	position: absolute;
+	top: 100vh;
 	margin: auto;
 	width: 90vw;
 	text-align: justify;
@@ -103,10 +103,10 @@ li {
 	background-color : rgba(255,255,255,0.5);
 }
 .main {
-	position: relative;
+	position: absolute;
 	font-size: 6em;
 	color: white;
-	top: 40%;
+	top: 40vh;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -185,5 +185,11 @@ li {
 }
 .linkedin:hover {
 	background-image: url(images/linkedin.png);
+}
+.main {
+	position: relative;
+}
+.container {
+	position: relative;
 }
 }
