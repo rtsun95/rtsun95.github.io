@@ -111,7 +111,7 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: 700;
-	font-size:300%;
+	font-size:5vw;
 	padding:0;
 	margin-bottom:0;
 	text-shadow: 4px 4px #666666;
@@ -178,6 +178,9 @@ li{
 }
 }
 @media (min-width:768px) {
+.main{
+	font-size:3em;
+}
 .list{
 	display:inline-block;
 	cursor:pointer;
