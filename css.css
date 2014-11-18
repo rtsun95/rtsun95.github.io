@@ -108,7 +108,7 @@ li {
 	width:100%;
 	left:50%;
 	margin:0 0 0 -50%;
-	top: 35%;
+	top: 35vh;
 	text-align: center;
 	font-weight: 700;
 	font-size:5vw;
@@ -127,6 +127,7 @@ li {
 	min-height:50vh;
 	height:auto;
 	padding:10px 3% 10px 3%;
+	border-radius:20px;;
 	
 	-moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -136,15 +137,13 @@ li {
 	height:auto;
 	width:inherit;
 	font-family:'Open Sans', sans-serif;
+	margin-bottom:1.5em;
 	
 	-webkit-transition: opacity 0.5s ease-in-out;
 	-moz-transition: opacity 0.5s ease-in-out;
 	-ms-transition: opacity 0.5s ease-in-out;
 	-o-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
-}
-.web_content, .and_content, .math_content,.resu_content{
-	opacity:0;
 }
 .content h1, .content p{
 	margin:0;
@@ -173,6 +172,10 @@ li {
 }
 li{
 	width:19%;
+}
+.main{
+	text-shadow: 3px 3px #666666;
+}
 }
  @media (min-width:992px) {
 .container {
@@ -226,5 +229,8 @@ li {
 }
 .linkedin:hover {
 	background-image: url(images/linkedin.png);
+}
+.main{
+	text-shadow: 4px 4px #666666;
 }
 }

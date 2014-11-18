@@ -1,17 +1,12 @@
 $(document).ready(function() {
 	var class_name = $('.about_content').attr('class');
 	var display = $('.about_content');
+	var height = $(window).height()*0.3;
 	
 	var check = function(name){
-		var container_top = $('.container').offset().top;
-		if(class_name != $(name).attr('class')){
-				display.css('opacity','0');
-				$(name).css('opacity', '0.9');
-				class_name=$(name).attr('class');
-				display = $(name);
-			}
-		if(container_top > 100){
-			$('body', 'html').animate({scrollTop:container_top - 100},'50');
+		var div_top = $(name).offset().top;
+		if(div_top > 100){
+			$('body', 'html').animate({scrollTop:div_top - height},'50');
 		}
 	}
 	
