@@ -117,7 +117,7 @@ li {
 	text-shadow: 4px 4px #666666;
 }
 .hello{
-	font-size: 200%;
+	font-size: 10vw;
 	margin:0;
 	padding:0;
 }
@@ -126,6 +126,10 @@ li {
 	background-color:rgba(255,255,255,0.9);
 	height:auto;
 	padding:10px 3% 10px 3%;
+	
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
 }
 .about_content, .web_content, .and_content, .math_content,.resu_content{
 	height:auto;
@@ -140,6 +144,9 @@ li {
 }
 .web_content, .and_content, .math_content,.resu_content{
 	opacity:0;
+}
+.content h1, .content p{
+	margin:0;
 }
 @media (min-width:421px){
 .me{
