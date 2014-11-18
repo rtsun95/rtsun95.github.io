@@ -98,7 +98,6 @@ li {
 	text-align: justify;
 	padding: 10px;
 	min-height: 100%;
-	
 }
 .list{
 	display:none;
@@ -117,13 +116,14 @@ li {
 	text-shadow: 4px 4px #666666;
 }
 .hello{
-	font-size: 10vw;
+	font-size: 200%;
 	margin:0;
 	padding:0;
 }
 .content{
 	width:100%;
 	background-color:rgba(255,255,255,0.9);
+	min-height:50vh;
 	height:auto;
 	padding:10px 3% 10px 3%;
 	
@@ -183,11 +183,11 @@ li{
 .linkedin{
 	margin-right:10%;
 }
+.main{
+	font-size:4em;
+}
 }
 @media (min-width:768px) {
-.main{
-	font-size:3em;
-}
 .list{
 	display:inline-block;
 	cursor:pointer;
