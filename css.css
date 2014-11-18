@@ -111,13 +111,13 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: 700;
-	font-size:3em;
+	font-size:300%;
 	padding:0;
 	margin-bottom:0;
 	text-shadow: 4px 4px #666666;
 }
 .hello{
-	font-size: 2em;
+	font-size: 200%;
 	margin:0;
 	padding:0;
 }
