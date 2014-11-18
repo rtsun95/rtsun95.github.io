@@ -40,7 +40,7 @@ $(document).ready(function() {
                 'opacity':1-($(this).scrollTop()/750)
             });
             $('.main').css({
-                'top': title_top + ($(this).scrollTop() / 1.6) + "px"
+                'top': title_top - ($(this).scrollTop() / 3) + "px"
             });
         };
         title();
