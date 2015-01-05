@@ -32,6 +32,6 @@ $(document).ready(function() {
 	
 	$('.resu').click(
 		function(){
-			window.open("cv_9.pdf");
+			window.open("resume.pdf");
 	});
 });
