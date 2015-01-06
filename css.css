@@ -90,8 +90,8 @@ li {
 	min-width:24px;
 }
 .link{
-	float:right;
-	margin-right:15%;
+	color:inherit;
+	text-decoration:inherit;
 }
 .container {
 	position: relative;
