@@ -2,7 +2,7 @@ $(document).ready(function() {
     var menu_top = $('.menu').height();
     var container_top = $('.container').offset().top;
     var title_top = $('.main').offset().top;
-	var screen_height=$(window).height()*0.35;
+	var screen_height=$(window).height()*0.4;
 	$('.container').css({
 			'height' : 1.75 * $('.content').height() + "px"
 	});
