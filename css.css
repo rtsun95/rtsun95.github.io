@@ -136,22 +136,49 @@ li {
 .about_content, .web_content, .and_content, .math_content,.resu_content{
 	height:auto;
 	width:100%;
-	font-family:'Open Sans', sans-serif;
-	margin-bottom:1.5em;
+	margin-bottom:1.5rem;
 }
 .content h3{
 	margin:0;
+	text-align:center;
 	margin-top:15px;
-	font-size:25px;
+	font-size:1.75rem;
 }
 .content p{
-	font-size:20px;
+	font-size:1.25rem;
 	margin-top:5px;
 	margin-bottom:5px;
+	font-family:'Open Sans', sans-serif;
 }
 .content h1{
-	text-align:center;
 	margin-top:50px;
+	font-size:2em;
+}
+.left{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.right{
+	width:80%;
+	padding-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align:middle;
+}
+.image{
+	width:auto;
+	height:auto;
+	vertical-align:middle;
+	max-height:20em;
+	max-width:100%;
+	display:inline-block;
+	border:2px solid black;
+	border-radius:5px;
+}
+.laptop{
+	display:none;
 }
 @media (min-width:421px){
 .me{
@@ -229,18 +256,35 @@ li {
 	border-radius:20px;
 }
 .container{
-	width:85%;
+	width:95%;
 	padding: 10px;
 	text-align: justify;
 }
-.about_content, .web_content, .and_content, .math_content,.resu_content{
-	width:50%;
+.web_content, .and_content, .math_content{
+	width:100%;
+	
+}
+.left{
+	width:34%;
+	display:inline-block;
+}
+.right{
+	width:59%;
+	padding-left:5%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.mobile{
+	display:none;
+}
+.laptop{
+	display:inline;
 }
 }
 
  @media (min-width:992px) {
 .container {
-	width: 80%;
+	width: 83%;
 }
 
 .linkedin{

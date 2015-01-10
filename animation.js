@@ -4,9 +4,9 @@ $(document).ready(function() {
     var title_top = $('.main').offset().top;
     var screen_height = $(window).height() * 0.4;
     if ($(window).width() > 768) {
-		 $('.container').css({
-        'height': 1.75 * $('.content').height() + "px"
-    });
+		$('.container').css({
+        	'height': 2 * $('.content').height() + "px"
+    	});
         $(window).unload(function() {
             $('.main').css({
                 'top': screen_height - menu_top - ($(window).scrollTop() / 2.5) + "px"
@@ -51,9 +51,9 @@ $(document).ready(function() {
 	
 	
 	else{
-		 $('.container').css({
-        'height': 1.50 * $('.content').height() + "px"
-    });
+		$('.container').css({
+        	'height': 1.50 * $('.content').height() + "px"
+    	});
 		$(window).unload(function() {
 			$('.main').css({
 				'top': screen_height - ($(window).scrollTop() / 2.5) + "px"
