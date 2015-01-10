@@ -1,12 +1,11 @@
 $(document).ready(function() {
-	var class_name = $('.about_content').attr('class');
-	var display = $('.about_content');
-	var height = $(window).height()*0.3;
+	var height = $(window).height()*0.5;
 	
 	var check = function(name){
 		var div_top = $(name).offset().top;
 		if(div_top > 100){
 			$('body', 'html').animate({scrollTop:div_top - height},'50');
+			console.log(height,div_top);
 		}
 	}
 	

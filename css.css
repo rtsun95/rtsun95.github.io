@@ -99,7 +99,7 @@ li {
 	margin: auto;
 	width: 100%;
 	text-align: justify;
-	min-height: 100%;
+	min-height: 150%;
 }
 .list{
 	display:none;
@@ -146,12 +146,19 @@ li {
 	-o-transition: opacity 0.5s ease-in-out;
 	transition: opacity 0.5s ease-in-out;
 }
-.content h1, .content p{
+.content h3{
 	margin:0;
+	margin-top:15px;
+	font-size:25px;
 }
 .content p{
 	font-size:20px;
-	
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.content h1{
+	text-align:center;
+	margin-top:50px;
 }
 @media (min-width:421px){
 .me{
@@ -236,7 +243,7 @@ li {
 
  @media (min-width:992px) {
 .container {
-	width: 70%;
+	width: 80%;
 }
 
 .linkedin{
@@ -244,5 +251,11 @@ li {
 }
 .main{
 	font-size:4em;
+}
+}
+ @media (min-width:1240px) {
+.container {
+	width: 70%;
+}
 }
 }
