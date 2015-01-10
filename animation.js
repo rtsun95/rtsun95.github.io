@@ -41,9 +41,8 @@ $(document).ready(function() {
 	
 	
 	var title = function() {
-            var scroll_top = $(window).scrollTop();
 			$('.main').css({
-                'opacity':1-($(this).scrollTop()/700)
+                'opacity':1-($(this).scrollTop()/(screen_height+$(this).height()*0.45))
             });
             $('.main').css({
                 'top': screen_height - ($(window).scrollTop()/2.5) + "px"
