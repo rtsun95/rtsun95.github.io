@@ -98,7 +98,6 @@ li {
 	top: 100%;
 	margin: auto;
 	width: 100%;
-	text-align: justify;
 	min-height: 150%;
 }
 .list{
@@ -238,6 +237,7 @@ li {
 .container{
 	width:85%;
 	padding: 10px;
+	text-align: justify;
 }
 }
 
