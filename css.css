@@ -149,6 +149,10 @@ li {
 .content h1, .content p{
 	margin:0;
 }
+.content p{
+	font-size:20px;
+	
+}
 @media (min-width:421px){
 .me{
 	background-image:url(images/profile.png);
