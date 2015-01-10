@@ -1,11 +1,10 @@
 $(document).ready(function() {
-	var height = $(window).height()*0.05;
+    var menu_top = $('.menu').height();
 	
 	var check = function(name){
 		var div_top = $(name).offset().top;
 		if(div_top > 100){
-			$('body', 'html').animate({scrollTop:div_top-height},'50');
-			console.log(height,div_top);
+			$('body', 'html').animate({scrollTop:div_top-menu_top},'50');
 		}
 	}
 	

@@ -3,9 +3,12 @@ $(document).ready(function() {
     var container_top = $('.container').offset().top;
     var title_top = $('.main').offset().top;
 	var screen_height=$(window).height()*0.35;
+	$('.container').css({
+			'height' : 1.75 * $('.content').height() + "px"
+	});
 	$(window).unload(function() {
         $('.main').css({
-                'top': screen_height - ($(window).scrollTop()/2.5) + "px"
+                'top': screen_height - menu_top - ($(window).scrollTop()/2.5) + "px"
             });
     });
     var invisible = false;
@@ -45,7 +48,7 @@ $(document).ready(function() {
                 'opacity':1-($(this).scrollTop()/(screen_height+$(this).height()*0.45))
             });
             $('.main').css({
-                'top': screen_height - ($(window).scrollTop()/2.5) + "px"
+                'top': screen_height -menu_top- ($(window).scrollTop()/2.5) + "px"
             });
         };
         title();

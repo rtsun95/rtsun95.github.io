@@ -135,15 +135,9 @@ li {
 }
 .about_content, .web_content, .and_content, .math_content,.resu_content{
 	height:auto;
-	width:inherit;
+	width:100%;
 	font-family:'Open Sans', sans-serif;
 	margin-bottom:1.5em;
-	
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
 }
 .content h3{
 	margin:0;
@@ -238,6 +232,9 @@ li {
 	width:85%;
 	padding: 10px;
 	text-align: justify;
+}
+.about_content, .web_content, .and_content, .math_content,.resu_content{
+	width:50%;
 }
 }
 
