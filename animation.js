@@ -5,7 +5,7 @@ $(document).ready(function() {
     var screen_height = $(window).height() * 0.4;
     if ($(window).width() > 768) {
 		$('.container').css({
-        	'height': 2 * $('.content').height() + "px"
+        	'height': 1.3 * $('.content').height() + "px"
     	});
         $(window).unload(function() {
             $('.main').css({
@@ -52,7 +52,7 @@ $(document).ready(function() {
 	
 	else{
 		$('.container').css({
-        	'height': 1.50 * $('.content').height() + "px"
+        	'height': 1.2 * $('.content').height() + "px"
     	});
 		$(window).unload(function() {
 			$('.main').css({

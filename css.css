@@ -181,6 +181,38 @@ li {
 .laptop{
 	display:none;
 }
+.and_sub{
+	margin:2em;
+}
+.footer{
+	width:100%;
+	margin-top:15vh;
+	margin-left:0;
+	margin-right:0;
+	text-align:center;
+	min-height:5em;
+}
+.f_button{
+	border:2px solid #607D8B;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.75rem;
+	margin-bottom:0.75rem;
+	width:10rem;
+	height:3rem;
+	line-height:3rem;
+	border-radius:0.75rem;
+	text-align:center;
+	vertical-align:middle;
+	font-size:1.2rem;
+}
+.f_button:hover{
+	background-color:#CCCCCC;
+}
+.border{
+	width:75%;
+	border-top:2px solid black;
+}
 @media (min-width:421px){
 .me{
 	background-image:url(images/profile.png);
@@ -283,6 +315,11 @@ li {
 }
 .content h1{
 	text-align:left;
+}
+.f_button{
+	display:inline-block;
+	margin-left:1.5rem;
+	margin-right:1.5rem;
 }
 }
 
