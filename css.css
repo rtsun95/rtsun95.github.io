@@ -84,6 +84,8 @@ li {
 .linkedin {
 	background-image: url(images/linkedin_bw_24.png);
 }
+
+
 .logo{
 	width:10%;
 	float:right;
@@ -122,21 +124,26 @@ li {
 	margin:0;
 	padding:0;
 }
+
 .content{
 	width:100%;
 	background-color:rgba(255,255,255,1);
 	min-height:50vh;
 	height:auto;
-	padding:10px 3% 10px 3%;
-	
+	padding:10px 0 10px 0;	
 	-moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
      box-sizing: border-box; 
 }
-.about_content, .web_content, .and_content, .math_content,.resu_content{
-	height:auto;
-	width:100%;
-	margin-bottom:1.5rem;
+.about_content, .web_content, .and_content, .math_content{
+	min-height:auto;
+	padding-bottom:4rem;
+	padding-top:4rem;
+	padding-left:3%;
+	padding-right:3%;
+}
+.web_content, .math_content{
+	background-color:rgba(200,200,200,1);
 }
 .content h3{
 	margin:0;
@@ -146,20 +153,19 @@ li {
 }
 .content p{
 	font-size:1.25rem;
-	margin-top:5px;
-	margin-bottom:5px;
 	font-family:'Open Sans', sans-serif;
 }
 .content h1{
-	margin-top:50px;
 	font-size:2em;
 	text-align:center;
+	margin-top:0;
 }
 .left{
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
+	vertical-align:middle;
 }
 .right{
 	width:80%;
@@ -186,7 +192,7 @@ li {
 }
 .footer{
 	width:100%;
-	margin-top:15vh;
+	margin-top:0;
 	margin-left:0;
 	margin-right:0;
 	text-align:center;
@@ -209,9 +215,30 @@ li {
 .f_button:hover{
 	background-color:#CCCCCC;
 }
+.footer a{
+	width:100%;
+	height:100%;
+	text-decoration:none;
+	color:inherit;
+}
 .border{
 	width:75%;
 	border-top:2px solid black;
+	margin-top:0;
+	margin-bottom:5vh;
+}
+.profile{
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1rem;
+	border-radius:50%;
+	min-width:150px;
+}
+.intro{
+	overflow: hidden;
+	vertical-align:middle;
+}
 }
 @media (min-width:421px){
 .me{
@@ -288,14 +315,13 @@ li {
 	background-color:rgba(255,255,255,0.9);
 	border-radius:20px;
 }
+.web_content, .math_content{
+	background-color:rgba(200,200,200,0.3);
+}
 .container{
 	width:95%;
 	padding: 10px;
 	text-align: justify;
-}
-.web_content, .and_content, .math_content{
-	width:100%;
-	
 }
 .left{
 	width:34%;
@@ -321,8 +347,13 @@ li {
 	margin-left:1.5rem;
 	margin-right:1.5rem;
 }
+.profile{
+	width:20%;
+	float:left;
+	margin-right:5%;
+	margin-bottom:0;
 }
-
+}
  @media (min-width:992px) {
 .container {
 	width: 83%;

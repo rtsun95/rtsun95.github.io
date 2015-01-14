@@ -51,9 +51,6 @@ $(document).ready(function() {
 	
 	
 	else{
-		$('.container').css({
-        	'height': 1.2 * $('.content').height() + "px"
-    	});
 		$(window).unload(function() {
 			$('.main').css({
 				'top': screen_height - ($(window).scrollTop() / 2.5) + "px"
