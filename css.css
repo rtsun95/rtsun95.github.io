@@ -244,7 +244,6 @@ li {
 	overflow: hidden;
 	vertical-align:middle;
 }
-}
 @media (min-width:421px){
 .me{
 	background-image:url(images/profile.png);
@@ -374,6 +373,5 @@ li {
  @media (min-width:1240px) {
 .container {
 	width: 70%;
-}
 }
 }
