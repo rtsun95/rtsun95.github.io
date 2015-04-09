@@ -16,9 +16,8 @@ html, body {
 	background-position:center top;
 }
 .menu {
-	height: 3.2em;
-	background-image: linear-gradient(#F0F0F0, #F0F0F0);
-	opacity: 1;
+	height: 3.5em;
+	background: #F0F0F0;
 	width: 100%;
 	z-index: 5;
 	vertical-align: central;
@@ -31,9 +30,10 @@ html, body {
 	-ms-transition: opacity 0.25s ease-in-out;
 	-o-transition: opacity 0.25s ease-in-out;
 	transition: opacity 0.25s ease-in-out;
+    box-shadow: 5px 5px 10px #666666;
 }
 .wrapper {
-	height: 3em;
+	height: 100%;
 	position: relative;
 	width: 80%;
 	max-width: 1080px;
@@ -62,6 +62,9 @@ li {
 	height: inherit;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+.list{
+	display:none;
 }
 .me{
 	background-image:url(images/profile_24.png);
@@ -95,16 +98,7 @@ li {
 	color:inherit;
 	text-decoration:inherit;
 }
-.container {
-	position: relative;
-	top: 100%;
-	margin: auto;
-	width: 100%;
-	min-height: 150%;
-}
-.list{
-	display:none;
-}
+
 .main {
 	position: fixed;
 	color: white;
@@ -124,16 +118,25 @@ li {
 	margin:0;
 	padding:0;
 }
-
+.container {
+	position: relative;
+	top: 100%;
+	width: 100%;
+	min-height: 150%;
+}
 .content{
-	width:100%;
 	background-color:rgba(255,255,255,1);
 	min-height:50vh;
 	height:auto;
-	padding:10px 0 10px 0;	
+	padding:10px 0 0 0;	
 	-moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+    box-sizing: border-box;
+}
+.cards{
+    margin:auto;
+    width:100%;
+    max-width: 1000px;
 }
 .about_content, .web_content, .and_content, .math_content{
 	min-height:auto;
@@ -193,6 +196,7 @@ li {
 .footer{
 	width:100%;
 	margin-top:0;
+    padding-bottom: 20px;
 	margin-left:0;
 	margin-right:0;
 	text-align:center;
@@ -279,7 +283,7 @@ li{
 	cursor:pointer;
 }
 .invert:hover {
-	color: #6b6b6b;
+	background: #c8c8c8;
 }
 li {
 	float:none;
@@ -293,7 +297,6 @@ li {
 	background:none;
 }
 .menu{
-	background-image: linear-gradient(#F0F0F0, #B6B6B6);
 	opacity: 1;
 }
 .wrapper {
@@ -317,14 +320,12 @@ li {
 }
 .content{
 	background-color:rgba(255,255,255,0.9);
-	border-radius:20px;
 }
 .web_content, .math_content{
 	background-color:rgba(200,200,200,0.3);
 }
-.container{
-	width:95%;
-	padding: 10px;
+.cards{
+	width:90%;
 	text-align: justify;
 }
 .left{
@@ -343,9 +344,6 @@ li {
 .laptop{
 	display:inline;
 }
-.content h1{
-	text-align:left;
-}
 .f_button{
 	display:inline-block;
 	margin-left:1.5rem;
@@ -359,19 +357,10 @@ li {
 }
 }
  @media (min-width:992px) {
-.container {
-	width: 83%;
-}
-
 .linkedin{
 	margin-right:10%;
 }
 .main{
 	font-size:4em;
-}
-}
- @media (min-width:1240px) {
-.container {
-	width: 70%;
 }
 }

@@ -4,7 +4,7 @@ $(document).ready(function() {
 	var check = function(name){
 		var div_top = $(name).offset().top;
 		if(div_top > 100){
-			$('body', 'html').animate({scrollTop:div_top-menu_top+5},'50');
+			$('body', 'html').animate({scrollTop:div_top-menu_top+menu_top},'50');
 		}
 	}
 	
