@@ -1,2 +1,2 @@
-My porfolio website (to be update soon)
+My porfolio website
 ========
