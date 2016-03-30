@@ -9,11 +9,13 @@ export default class Content extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class='container'>
         <Nav />
-        <About />
-        <Experience />
-        <Project />
+        <div class='content'>
+          <About />
+          <Experience />
+          <Project />
+        </div>
       </div>
     );
   }

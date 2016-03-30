@@ -4,7 +4,7 @@ export default class Experience extends React.Component {
 
   render() {
     return (
-      <h1>Past Experiences </h1>
+      <h2>Experiences </h2>
     );
   }
 }

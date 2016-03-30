@@ -4,7 +4,7 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <h1>Projects </h1>
+      <h2>Projects </h2>
     );
   }
 }
