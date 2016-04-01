@@ -1,9 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import About from "./About";
-import Experience from "./Experience";
-import Nav from "./Nav";
-import Project from "./Project";
+import Nav from './Nav';
 
 export default class Content extends React.Component {
 
@@ -12,11 +9,9 @@ export default class Content extends React.Component {
       <div class='container'>
         <Nav />
         <div class='content'>
-          <About />
-          <Experience />
-          <Project />
+          {this.props.children}
         </div>
       </div>
     );
   }
-}
+};

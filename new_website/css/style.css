@@ -19,8 +19,7 @@ h1,h2,h3{
 
 /*NAV BAR*/
 .menu {
-    position: absolute;
-    top: 1em;
+    margin-top: 1em;
 }
 
 ul {
