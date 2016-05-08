@@ -4,7 +4,9 @@ export default class Experience extends React.Component {
 
   render() {
     return (
-      <h2>Experiences </h2>
+      <div class ='fadeIn animated'>
+        <h2>Experiences </h2>
+      </div>
     );
   }
 }

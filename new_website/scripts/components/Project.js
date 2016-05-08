@@ -4,7 +4,9 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <h2>Projects </h2>
+      <div class ='fadeIn animated'>
+        <h2>Projects </h2>
+      </div>
     );
   }
 }
