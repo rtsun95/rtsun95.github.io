@@ -33,3 +33,17 @@ a {
 .link:hover {
     color: rgba(80, 195, 255, 0.6);
 }
+
+/*GAME-OF-LIFE*/
+#game-of-life {
+  margin: 0 auto;
+}
+.cell {
+  float: left;
+  height: 10px;
+  width: 10px;
+  transition: all 0.25s linear;
+}
+.cell.active {
+  background-color: #000;
+}

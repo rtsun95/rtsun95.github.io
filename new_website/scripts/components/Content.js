@@ -22,6 +22,7 @@ export default class Content extends React.Component {
       <div class='container' style={containerStyle}>
         <Header />
         <Nav />
+        <div id='game-of-life'></div>
         <div class='content' style={contentStyle}>
           {this.props.children}
         </div>

@@ -15,8 +15,8 @@ export default class About extends React.Component {
           I'm a programmer and web developer with a particular interest in <strong>machine learning</strong> and <strong>augmented/virtual reality</strong>.
         </p>
         <p>
-          I'm looking for internship opportunities for Fall (September - December) 2016.<br />
-          I previously worked at <strong>BuildDirect's Design Center</strong> and <strong>Autodesk</strong>.
+          I'm looking for internship opportunities for Fall (September - December) 2016.
+          I previously worked at <strong>Ticketfi</strong>, <strong>BuildDirect's Design Center</strong> and <strong>Autodesk</strong>.
         </p>
         <p>
           I also enjoy rock climbing, playing board games and Civilization V.
