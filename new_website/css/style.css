@@ -13,28 +13,23 @@ h1, h2, h3 {
 }
 
 a {
-    color: black;
     text-decoration: none;
 }
 
-a:hover {
+.route {
+    color: #444;
+    border-bottom: 1px dashed #444; 
+}
+
+.route:hover {
     color: #666;
+    border-color: #666;
 }
 
-.example-enter {
-  opacity: 0.01;
+.link {
+    color: rgba(80, 195, 255, 1);
 }
 
-.example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.example-leave {
-  opacity: 1;
-}
-
-.example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
+.link:hover {
+    color: rgba(80, 195, 255, 0.6);
 }

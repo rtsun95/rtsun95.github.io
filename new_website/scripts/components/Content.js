@@ -2,6 +2,7 @@ import React from 'react';
 
 import Nav from './Nav';
 import Header from './Header';
+import Footer from './Footer';
 
 export default class Content extends React.Component {
   render() {
@@ -13,7 +14,7 @@ export default class Content extends React.Component {
 
     var contentStyle = {
       maxWidth: '650px',
-      margin: '20px auto',
+      margin: '50px auto',
       padding: '0 10px'
     }
 
@@ -24,6 +25,7 @@ export default class Content extends React.Component {
         <div class='content' style={contentStyle}>
           {this.props.children}
         </div>
+        <Footer />
       </div>
     );
   }

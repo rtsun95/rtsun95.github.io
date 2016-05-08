@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
 
     const links = ['/', 'experiences', 'projects'];
     const buttons = ['About', 'Experiences', 'Projects']
-      .map((type, i) => <Type key={i} type={type} link={links[i]}/>);
+      .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={false}/>);
 
     return (
       <div class='menu' style={menuStyle}>
