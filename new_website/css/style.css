@@ -18,7 +18,7 @@ a {
 
 .route {
     color: #444;
-    border-bottom: 1px dashed #444; 
+    border-bottom: 1px dashed #444;
 }
 
 .route:hover {
@@ -31,19 +31,28 @@ a {
 }
 
 .link:hover {
-    color: rgba(80, 195, 255, 0.6);
+    color: rgba(80, 195, 255, 0.8);
+}
+
+.lineLink {
+    color: #444;
+}
+
+.lineLink:hover {
+    color: #666;
+    border-bottom: 1px solid #666; 
 }
 
 /*GAME-OF-LIFE*/
 #game-of-life {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 .cell {
-  float: left;
-  height: 10px;
-  width: 10px;
-  transition: all 0.25s linear;
+    float: left;
+    height: 10px;
+    width: 10px;
+    transition: all 0.25s linear;
 }
 .cell.active {
-  background-color: #000;
+    background-color: #000;
 }
