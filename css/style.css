@@ -1,0 +1,58 @@
+/*BODY*/
+html, body {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    background-color: #F6F6F6;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.route {
+    color: #444;
+    border-bottom: 1px dashed #444;
+}
+
+.route:hover {
+    color: #666;
+    border-color: #666;
+}
+
+.link {
+    color: rgba(80, 195, 255, 1);
+}
+
+.link:hover {
+    color: rgba(80, 195, 255, 0.8);
+}
+
+.lineLink {
+    color: #444;
+}
+
+.lineLink:hover {
+    color: #666;
+    border-bottom: 1px solid #666; 
+}
+
+/*GAME-OF-LIFE*/
+#game-of-life {
+    margin: 0 auto;
+}
+.cell {
+    float: left;
+    height: 10px;
+    width: 10px;
+    transition: all 0.25s linear;
+}
+.cell.active {
+    background-color: #000;
+}
