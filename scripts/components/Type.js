@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 export default class Type extends React.Component {
   render() {
 
-    var liStyle = {
+    const liStyle = {
         width: '100px',
         padding: '0px 3px',
         margin: '0px 3px',

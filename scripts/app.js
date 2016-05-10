@@ -12,7 +12,7 @@ import ProjectData from './data/projects';
 import InitiativeData from './data/initiatives';
 
 
-const ExperienceComponent = React.createClass({
+var ExperienceComponent = React.createClass({
   render() {
     return (
       <Experience data={ExperienceData}/>
@@ -20,7 +20,7 @@ const ExperienceComponent = React.createClass({
   }
 });
 
-const ProjectComponent = React.createClass({
+var ProjectComponent = React.createClass({
   render() {
     return (
       <Project data={ProjectData}/>
@@ -28,7 +28,7 @@ const ProjectComponent = React.createClass({
   }
 });
 
-const InitiativeComponent = React.createClass({
+var InitiativeComponent = React.createClass({
   render() {
     return (
       <Experience data={InitiativeData}/>
@@ -36,9 +36,9 @@ const InitiativeComponent = React.createClass({
   }
 });
 
-const app = document.getElementById('app');
+var app = document.getElementById('app');
 
-const history = createMemoryHistory(location);
+var history = createMemoryHistory(location);
 
 ReactDOM.render(
   <Router history={history}>

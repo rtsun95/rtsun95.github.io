@@ -3,7 +3,7 @@ import React from 'react';
 export default class Header extends React.Component {
   render() {
 
-    var headerStyle =  {
+    const headerStyle =  {
         textAlign: 'center',
         margin: '20px 0'
     };

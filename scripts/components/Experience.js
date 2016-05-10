@@ -5,21 +5,27 @@ import Highlights from './Highlights';
 export default class Experience extends React.Component {
   render() {
 
-    const experiences = this.props.data;
-
-    console.log(this.props.data);
+    var experiences = this.props.data;
 
     const noMarginStyle = {
       margin: '0px'
+    }
+
+    const flexStyle = {
+      display: 'flex',
+      justifyContent: 'space-between'
     }
 
     const workStyle = {
       margin: '50px 0'
     }
 
-    var renderProjectLink = (projectLink) => {
+    var renderProjectLink = (projectLink, gitLink) => {
       if (projectLink) {
-        return <a class='link' href={projectLink}>Visit the project that I have worked on</a>
+        return <div style={flexStyle}>
+                <a class='link' href={projectLink}>Visit this project</a>
+                <a class='link' href={gitLink}>View on github</a>
+               </div>;
       }
     };
 
@@ -36,7 +42,7 @@ export default class Experience extends React.Component {
             {work.title}
           </p>
           <Highlights highlights={work.highlights}/>
-          {renderProjectLink(work.projectLink)}
+          {renderProjectLink(work.projectLink, work.gitLink)}
         </div>
       );
 

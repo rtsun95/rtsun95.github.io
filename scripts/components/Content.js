@@ -7,12 +7,12 @@ import Footer from './Footer';
 export default class Content extends React.Component {
   render() {
 
-    var containerStyle = {
+    const containerStyle = {
       maxWidth: '1440px',
       margin: '0 auto'
     };
 
-    var contentStyle = {
+    const contentStyle = {
       maxWidth: '650px',
       margin: '50px auto',
       padding: '0 10px'

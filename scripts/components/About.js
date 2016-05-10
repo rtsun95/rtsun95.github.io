@@ -4,7 +4,7 @@ export default class About extends React.Component {
 
   render() {
 
-    var aboutStyle = {
+    const aboutStyle = {
       textAlign: 'justify'
     }
 

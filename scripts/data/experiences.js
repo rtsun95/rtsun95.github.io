@@ -9,7 +9,8 @@ const experiences = [
       'Implemented all the tests for the website using this framework, which improved the website\'s reliability',
       'Implemented new front-end modules and features using Backbone.js'
     ],
-    projectLink: 'https://github.com/yoannmoinet/damon'
+    projectLink: 'https://www.npmjs.com/package/damon',
+    gitLink: 'https://github.com/yoannmoinet/damon'
   },
   {
     name: 'BuildDirect Design Center',

@@ -5,12 +5,12 @@ import Type from './Type';
 export default class Footer extends React.Component {
   render() {
 
-    var footerStyle =  {
+    const footerStyle =  {
         textAlign: 'center',
         margin: '20px 0'
     };
 
-    var ulStyle = {
+    const ulStyle = {
         margin: '0px auto',
         padding: '0px',
         listStyleType: 'none',
@@ -22,7 +22,7 @@ export default class Footer extends React.Component {
                    'resume.pdf'];
 
 
-    const buttons = ['Email', 'Github', 'LinkedIn', 'Resume']
+    var buttons = ['Email', 'Github', 'LinkedIn', 'Resume']
       .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={true}/>);
 
     return (

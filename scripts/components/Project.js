@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class Project extends React.Component {
   render() {
-    const projects = this.props.data;
+    var projects = this.props.data;
 
     const nameStyle = {
       margin: '0px'
@@ -28,7 +28,7 @@ export default class Project extends React.Component {
       }
     };
 
-    const projectDOM = projects
+    var projectDOM = projects
       .map((project, i) => 
         <div key={i} style={projectStyle}>
 

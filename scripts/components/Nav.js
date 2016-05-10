@@ -6,19 +6,19 @@ export default class Nav extends React.Component {
   render() {
 
     /*NAV BAR*/
-    var menuStyle = {
+    const menuStyle = {
         margin: '1.5em auto',
         textAlign: 'center'
     };
 
-    var ulStyle = {
+    const ulStyle = {
         margin: '0px auto',
         padding: '0px',
         listStyleType: 'none',
     };
 
     const links = ['/', 'experiences', 'projects', 'initiatives'];
-    const buttons = ['About', 'Experiences', 'Projects', 'Initiatives']
+    var buttons = ['About', 'Experiences', 'Projects', 'Initiatives']
       .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={false}/>);
 
     return (
