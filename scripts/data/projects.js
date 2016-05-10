@@ -40,7 +40,7 @@ const projects = [
     location: 'HackIllinois',
     link: '',
     date: 'March 2015',
-    tech: 'AngularJS, Microsoft Azure, Android',
+    tech: 'AngularJS, Azure, Android',
     github: 'https://github.com/rtsun95/crowdreport_web',
     description: 'Android and web app that allows citizens to report effortlessly issues to their city. Won the Yelp best Community hack prize.'
   },

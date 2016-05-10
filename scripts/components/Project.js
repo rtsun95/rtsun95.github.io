@@ -49,7 +49,7 @@ export default class Project extends React.Component {
             {project.description}
           </p>
 
-          <div style={flexStyle}>
+          <div class='techGit'>
             <span>
               <i>{project.tech}</i>
             </span>

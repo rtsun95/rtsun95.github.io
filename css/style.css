@@ -47,6 +47,12 @@ a {
     display: none;
 }
 
+.techGit {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+
 @media (min-width: 720px) {
     /*GAME-OF-LIFE*/
     #game-of-life {
@@ -61,5 +67,9 @@ a {
     }
     .cell.active {
         background-color: #444;
+    }
+
+    .techGit {
+        flex-direction: row;
     }
 }
