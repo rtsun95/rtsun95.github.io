@@ -54,5 +54,5 @@ a {
     transition: all 0.25s linear;
 }
 .cell.active {
-    background-color: #000;
+    background-color: #444;
 }
