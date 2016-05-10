@@ -43,16 +43,23 @@ a {
     border-bottom: 1px solid #666; 
 }
 
-/*GAME-OF-LIFE*/
 #game-of-life {
-    margin: 0 auto;
+    display: none;
 }
-.cell {
-    float: left;
-    height: 10px;
-    width: 10px;
-    transition: all 0.25s linear;
-}
-.cell.active {
-    background-color: #444;
+
+@media (min-width: 720px) {
+    /*GAME-OF-LIFE*/
+    #game-of-life {
+        margin: 0 auto;
+        display: block;
+    }
+    .cell {
+        float: left;
+        height: 10px;
+        width: 10px;
+        transition: all 0.25s linear;
+    }
+    .cell.active {
+        background-color: #444;
+    }
 }
