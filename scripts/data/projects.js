@@ -51,7 +51,7 @@ const projects = [
     date: 'November 2014',
     tech: 'AngularJS, Python/Flask, Bootstrap',
     github: 'https://github.com/icechen1/coop-friendship',
-    description: 'website that allow students of the University of Waterloo to compare their study stream.'
+    description: 'Website that allow students of the University of Waterloo to compare their study stream.'
   }
 ];
 

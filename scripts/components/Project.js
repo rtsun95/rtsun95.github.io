@@ -8,11 +8,6 @@ export default class Project extends React.Component {
       margin: '0px'
     };
 
-    const flexStyle = {
-      display: 'flex',
-      justifyContent: 'space-between'
-    }
-
     const projectStyle = {
       margin: '50px 0'
     };
@@ -28,6 +23,15 @@ export default class Project extends React.Component {
       }
     };
 
+    var renderLocation = (location) => {
+      if (location) {
+        return <div>@ {location} </div>;
+      }
+      else {
+        return;
+      }
+    };
+
     var projectDOM = projects
       .map((project, i) => 
         <div key={i} style={projectStyle}>
@@ -36,14 +40,11 @@ export default class Project extends React.Component {
             {renderTitle(project.name, project.link)}
           </h2>
 
-          <div style={flexStyle}>
-            <span>
-              {project.date}
-            </span>
-            <span>
-              {project.location}
-            </span>
+          <div>
+            {project.date}
           </div>
+
+          {renderLocation(project.location)}
 
           <p>
             {project.description}
