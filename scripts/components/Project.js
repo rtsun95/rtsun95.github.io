@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class Project extends React.Component {
   render() {
-    var projects = this.props.data;
+    const projects = this.props.data;
 
     const nameStyle = {
       margin: '0px'
@@ -12,7 +12,7 @@ export default class Project extends React.Component {
       margin: '50px 0'
     };
 
-    var renderTitle = (name, link) => {
+    const renderTitle = (name, link) => {
       if (link) {
         return <a href={link} class='lineLink' target='_blank'>
                   <strong>{name}</strong>
@@ -23,7 +23,7 @@ export default class Project extends React.Component {
       }
     };
 
-    var renderLocation = (location) => {
+    const renderLocation = (location) => {
       if (location) {
         return <div>@ {location} </div>;
       }
@@ -32,8 +32,8 @@ export default class Project extends React.Component {
       }
     };
 
-    var projectDOM = projects
-      .map((project, i) => 
+    const projectDOM = projects
+      .map((project, i) =>
         <div key={i} style={projectStyle}>
 
           <h2 style={nameStyle}>

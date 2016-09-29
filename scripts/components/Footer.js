@@ -16,13 +16,13 @@ export default class Footer extends React.Component {
         listStyleType: 'none',
     };
 
-    const links = ['mailto:sunruotai95@gmail.com', 
-                   'https://github.com/rtsun95', 
+    const links = ['mailto:sunruotai95@gmail.com',
+                   'https://github.com/rtsun95',
                    'https://ca.linkedin.com/in/rtsun',
                    'resume.pdf'];
 
 
-    var buttons = ['Email', 'Github', 'LinkedIn', 'Resume']
+    const buttons = ['Email', 'Github', 'LinkedIn', 'Resume']
       .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={true}/>);
 
     return (
