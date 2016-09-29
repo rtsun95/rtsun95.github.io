@@ -1,5 +1,14 @@
 const experiences = [
   {
+    name: 'InfoScout',
+    link: 'http://infoscout.co/',
+    date: 'September 2016 - Present',
+    title: 'Software Developer',
+    highlights: [
+      'Currently working at InfoScout as Software Developer using React/Redux and Django'
+    ]
+  },
+  {
     name: 'Autodesk',
     link: 'http://www.autodesk.com/',
     date: 'January 2016 - April 2016',
@@ -31,7 +40,7 @@ const experiences = [
     title: 'Web Developer',
     highlights: [
       'Contributed to write and design a RESTFul API using Ruby on Rails',
-       'Implemented most of the company\'s unit tests using Rspec'
+      'Implemented most of the company\'s unit tests using Rspec'
     ]
   }
 ];
