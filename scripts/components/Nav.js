@@ -18,7 +18,7 @@ export default class Nav extends React.Component {
     };
 
     const links = ['/', 'experiences', 'projects', 'initiatives'];
-    var buttons = ['About', 'Experiences', 'Projects', 'Initiatives']
+    const buttons = ['About', 'Experiences', 'Projects', 'Initiatives']
       .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={false}/>);
 
     return (

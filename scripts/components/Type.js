@@ -12,7 +12,7 @@ export default class Type extends React.Component {
         display: 'inline-block'
     };
 
-    var link;
+    let link;
 
     if (this.props.anchor === true) {
       link = <a class='link' href={this.props.link}> {this.props.type} </a>;

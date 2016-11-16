@@ -5,7 +5,7 @@ import Highlights from './Highlights';
 export default class Experience extends React.Component {
   render() {
 
-    var experiences = this.props.data;
+    const experiences = this.props.data;
 
     const noMarginStyle = {
       margin: '0px'
@@ -20,7 +20,7 @@ export default class Experience extends React.Component {
       margin: '50px 0'
     }
 
-    var renderProjectLink = (projectLink, gitLink) => {
+    const renderProjectLink = (projectLink, gitLink) => {
       if (projectLink) {
         return <div style={flexStyle}>
                 <a class='link' href={projectLink}>Visit this project</a>
@@ -30,7 +30,7 @@ export default class Experience extends React.Component {
     };
 
     const works = experiences
-      .map((work, i) => 
+      .map((work, i) =>
         <div key={i} style={workStyle}>
           <h2 style={noMarginStyle}>
             <a href={work.link} class='lineLink' target='_blank'>
