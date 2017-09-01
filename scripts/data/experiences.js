@@ -1,11 +1,24 @@
 const experiences = [
   {
-    name: 'InfoScout',
-    link: 'http://infoscout.co/',
-    date: 'September 2016 - Present',
+    name: 'Bloomberg',
+    link: 'https://www.bloomberg.com/',
+    date: 'May 2017 - August 2017',
     title: 'Software Developer',
     highlights: [
-      'Currently working at InfoScout as Software Developer using React/Redux and Django'
+      'Contributed to automate and improve the performance of a NLP system using Active Learning',
+      'Built every layer (from back-end to UI) of an internal tool to annotate text documents used to train different entity extraction and entity linking models',
+      'Participated into the design and implementation of a SQL database for the whole system'
+    ]
+  },
+  {
+    name: 'InfoScout',
+    link: 'http://infoscout.co/',
+    date: 'September 2016 - December 2017',
+    title: 'Software Developer',
+    highlights: [
+      'Developed multiple React components synced with the Redux Store as core front-end features',
+      'Implemented list entries, file uploads, metric filters for a data analytics platform allowing users to perform complex data queries',
+      'Integrated web analytics tools to understand customers\' needs and increase development efficiency'
     ]
   },
   {
