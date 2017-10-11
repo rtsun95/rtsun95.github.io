@@ -15,11 +15,11 @@ export default class About extends React.Component {
           I'm a programmer and web developer with a particular interest in <strong>machine learning</strong> and <strong>augmented/virtual reality</strong>.
         </p>
         <p>
-          I'm looking for internship opportunities for Summer (May - August) 2017. I'm currently working at <strong>InfoScout</strong> and
-          I previously interned at <strong>Ticketfi</strong>, <strong>BuildDirect's Design Center</strong> and <strong>Autodesk</strong>.
+          I'm looking for internship opportunities for Winter (January - April) 2018. I'm currently on a study abroad term at Yonsei University, Seoul, South Korea.
+          I previously interned at <strong>Bloomberg</strong>, <strong>InfoScout</strong>, <strong>Ticketfi</strong>, <strong>BuildDirect's Design Center</strong> and <strong>Autodesk</strong>.
         </p>
         <p>
-          I also enjoy rock climbing, playing board games and Civilization V.
+          I also enjoy rock climbing, photography, playing board games and Civilization V/VI.
         </p>
       </div>
     );
