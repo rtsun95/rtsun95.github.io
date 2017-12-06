@@ -11,11 +11,11 @@ export default class About extends React.Component {
     return (
       <div class ='fadeIn animated' style={aboutStyle}>
         <p>
-          Hi, I'm <strong>RuoTai Sun</strong>, currently studying Software Engineering at the University of Waterloo, class of 2019.
-          I'm a programmer and web developer with a particular interest in <strong>machine learning</strong> and <strong>augmented/virtual reality</strong>.
+          Hi, I'm <strong>RuoTai Sun</strong>, currently studying Computer Science at the University of Waterloo, class of 2019.
+          I'm a programmer and web developer with a particular interest in <strong>data analytics</strong> and <strong>augmented/virtual reality</strong>.
         </p>
         <p>
-          I'm looking for internship opportunities for Winter (January - April) 2018. I'm currently on a study abroad term at Yonsei University, Seoul, South Korea.
+          I'm currently on a study abroad term at Yonsei University, Seoul, South Korea.
           I previously interned at <strong>Bloomberg</strong>, <strong>InfoScout</strong>, <strong>Ticketfi</strong>, <strong>BuildDirect's Design Center</strong> and <strong>Autodesk</strong>.
         </p>
         <p>
