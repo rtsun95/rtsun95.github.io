@@ -19,10 +19,11 @@ export default class Footer extends React.Component {
     const links = ['mailto:sunruotai95@gmail.com',
                    'https://github.com/rtsun95',
                    'https://ca.linkedin.com/in/rtsun',
-                   'resume.pdf'];
+                   'resume.pdf',
+                   'https://www.instagram.com/ruotai/'];
 
 
-    const buttons = ['Email', 'Github', 'LinkedIn', 'Resume']
+    const buttons = ['Email', 'Github', 'LinkedIn', 'Resume', 'Instagram']
       .map((type, i) => <Type key={i} type={type} link={links[i]} anchor={true}/>);
 
     return (
